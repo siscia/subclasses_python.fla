@@ -2,4 +2,6 @@
 from base_class import AbstractAnimal
 
 class Cat(AbstractAnimal):
-    pass
+    def talk(self):
+        print("miao")
+    
